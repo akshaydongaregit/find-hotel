@@ -1,0 +1,10 @@
+package main.rate;
+
+import main.dao.Hotel;
+
+/**
+ * @author akshaydongare
+ */
+public interface HotelRateStrategy {
+    public double getHotelRate(Hotel hotel);
+}
