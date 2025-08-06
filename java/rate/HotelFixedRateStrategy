@@ -1,0 +1,13 @@
+package main.rate;
+
+import main.dao.Hotel;
+
+/**
+ * @author akshaydongare
+ */
+public class HotelFixedRateStrategy implements HotelRateStrategy{
+    @Override
+    public double getHotelRate(Hotel hotel) {
+        return hotel.getRate();
+    }
+}
